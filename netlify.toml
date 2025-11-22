@@ -3,9 +3,6 @@
   publish   = ".next"
   functions = "netlify/functions"
 
-[[plugins]]
-  package = "@netlify/plugin-nextjs"
-
 [context.production.environment]
 # Add any environment variables here, for example:
 # NEXT_PUBLIC_API_URL = "https://api.example.com"
